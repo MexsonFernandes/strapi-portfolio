@@ -41,6 +41,9 @@
     "categories": {
       "collection": "categories",
       "via": "article"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
