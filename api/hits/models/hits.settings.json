@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "hits",
+  "info": {
+    "name": "hits",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "counter": {
+      "type": "biginteger"
+    }
+  }
+}

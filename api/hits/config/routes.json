@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hits",
+      "handler": "hits.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hits",
+      "handler": "hits.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hits",
+      "handler": "hits.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/counter",
+      "handler": "hits.increase",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
