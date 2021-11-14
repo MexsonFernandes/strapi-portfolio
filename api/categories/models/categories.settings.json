@@ -20,7 +20,7 @@
       "required": true
     },
     "article": {
-      "via": "categories",
+      "via": "category",
       "model": "articles"
     }
   }

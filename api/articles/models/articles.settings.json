@@ -38,8 +38,8 @@
       "required": true,
       "pluginOptions": {}
     },
-    "categories": {
-      "collection": "categories",
+    "category": {
+      "model": "categories",
       "via": "article"
     },
     "date": {
