@@ -40,7 +40,7 @@
     },
     "category": {
       "model": "categories",
-      "via": "article"
+      "via": "articles"
     },
     "date": {
       "type": "date"
